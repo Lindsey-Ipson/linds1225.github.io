@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+}
+
+ #logo {
+    height: 50px;
+    float: left;
+    background-color: black;
+} 
+
+.header {
+padding: 10px;
+height: 69px;
+position: sticky;
+display: block;
+width: 100%;
+top: 0px;
+border-bottom: 1px solid seashell;
+justify-content: space-between;
+background-color: black;
+}
+
+.navigation {
+    list-style: none;
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.navigation a li {
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.navigation a li:hover {
+    color: gray;
+}
+
+.banner {
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    max-width: 1200px;
+    align-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 40px auto;
+}
+
+.teaOfMonth {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.bannerText {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.picture img {
+    max-height:200px;
+    max-width:300px;
+    padding: 10px;
+}
+
+#locations {
+    justify-content: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+    justify-content: space-between;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.addresses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    align-content: center;
+}
+
+.address {
+    background-color: black;
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    align-content: center;
+    line-height: 2;
+    margin: 40px;
+    vertical-align: middle;
+    padding: 5px;
+    
+}
+
+
+#locationsTitle {
+    display: block;
+    justify-content: center;
+    padding: 30px;
+}
+
+.contact {
+    height: 200px;
+    padding: 10px;
+}
+
+.copyright {
+    text-align: left;
+    padding: 5px;
+}
+
